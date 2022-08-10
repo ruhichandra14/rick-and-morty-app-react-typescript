@@ -1,0 +1,53 @@
+.character_card {
+  width: fit-content;
+  font-weight: 600;
+  border: 1px solid #d3d3d3;
+}
+
+.character_photo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.character_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 10px 0;
+  border-bottom: 2px solid #d3d3d3;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.character_title strong {
+  font-weight: 900;
+}
+
+.character_contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+}
+
+.character_status {
+  border-radius: 4px;
+  color: #fff;
+  padding: 2px 4px;
+  font-size: 10px;
+  display: inline-block;
+  line-height: 2;
+}
+
+.status_Alive {
+  background-color: #197719;
+}
+
+.status_unknown {
+  background-color: #d3d3d3;
+}
+
+.status_Dead {
+  background-color: #ff0000;
+}

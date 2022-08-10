@@ -1,0 +1,19 @@
+.button {
+    background-color: #45bde0cf;
+    color: #fff;
+    border: 2px solid #d3d3d3;
+    font-size: 16px;
+    padding: 8px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+.button:disabled {
+  background-color: #0c0b0b66;
+  color:#d3d3d3;
+  cursor: initial;
+}
+
+
+
