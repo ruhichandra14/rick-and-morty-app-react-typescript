@@ -4,7 +4,8 @@
 
 1. Clone the repository. Or, download the zip
 2. cd rick-and-morty
-3. Run local at <http://localhost:3000>:
+3. Run: npm i
+3. local at: http://localhost:3000
    command: npm run start
 4. Run tests: npm run test
 
